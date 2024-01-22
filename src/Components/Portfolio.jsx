@@ -19,9 +19,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/3rd Bg.png";
 
-const imageAltText = "desktop with books and laptop";
+const imageAltText = "aesthetic laptop image";
 
 /**
  * Project list
@@ -31,28 +31,28 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Food Calorie Detection using Images",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "This application is designed to detect and estimate the calorie content of various foods using GoogleNet, a pre-trained convolutional neural network (CNN). The model has been trained on over 100 different types of foods and can accurately identify and estimate the calories present in those foods based on input images.",
+    url: "https://github.com/D-Sritha-D/Food-Image-Calorie-Detection",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Emotion-Based-Music-Recommendation-System",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "This repository hosts a music recommendation system that leverages emotion detection techniques to curate personalized playlists based on users' emotional states. The system utilizes cutting-edge machine learning algorithms to analyze and recognize users' emotions from various inputs, such as facial expressions, voice tones, or text inputs.",
+    url: "https://github.com/D-Sritha-D/Emotion-Based-Music-Recommendation-System",
   },
   {
-    title: "My Resume Site",
+    title: "PDF-Knows",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "PDFKnows is an innovative chatbot designed to revolutionize the way you interact with PDF documents. With its advanced AI capabilities, PDFKnows can analyze and understand the content of your PDFs, allowing you to have natural and intuitive conversations with your documents.",
+    url: "https://github.com/D-Sritha-D/Pdf_Chatbot",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Speech Command Dataset Classification",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "Using TensorFlow to build an LSTM (a type of RNN), this project aims to classify the audio clips provided in Google's Speech Command Dataset",
+    url: "https://github.com/D-Sritha-D/Speech_Command_Dataset_Classification",
   },
 ];
 
